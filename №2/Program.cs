@@ -14,22 +14,22 @@ FullArray2(lines, columns);
 PrintArray2(lines, columns);
 
 Console.Write("Введите позицию элемента которого хотите найти: ");
-string position1 = Console.ReadLine()!;
+string position = Console.ReadLine()!;
 
-for (int y = 0; y < position1.Length; y++)
+for (int y = 0; y < position.Length; y++)
 {
-    Console.Write(position1[y] + " ");
+    Console.Write(position[y] + " ");
 }
 
 for (int i = 0; i < lines; i++)
 {
     for (int j = 0; j < columns; j++)
     {
-        if (position1[0] == i && position1[1] == j)
+        if (position[0] == i && position[1] == j)
         {              
-            Console.Write($"{position1[0] + position1[1]}");
+            Console.Write($"{position[0] + position[1]}");
         }
-        if (position1[0] > i && position1[1] > j)
+        if (position[0] > i && position[1] > j)
             Console.Write("такого числа нет ");
     }
 }

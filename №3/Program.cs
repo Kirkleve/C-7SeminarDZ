@@ -31,10 +31,9 @@ for (int i = 0; i < m; i++)
 
 for (int i = 0; i < m; i++)
 {
-    sumM = sumM * arrayM[i];
-    
     for (int j = 0; j < n; j++)
     {
+        sumM = sumM * arrayM[i];
         sumN = sumN * arrayN[j];
     }
 }
