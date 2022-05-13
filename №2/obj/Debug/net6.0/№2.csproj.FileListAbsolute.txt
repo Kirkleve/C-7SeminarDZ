@@ -3,3 +3,13 @@ C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семи�
 C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\obj\Debug\net6.0\№2.AssemblyInfoInputs.cache
 C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\obj\Debug\net6.0\№2.AssemblyInfo.cs
 C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\obj\Debug\net6.0\№2.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\bin\Debug\net6.0\№2.exe
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\bin\Debug\net6.0\№2.deps.json
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\bin\Debug\net6.0\№2.runtimeconfig.json
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\bin\Debug\net6.0\№2.dll
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\bin\Debug\net6.0\№2.pdb
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\obj\Debug\net6.0\№2.dll
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\obj\Debug\net6.0\refint\№2.dll
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\obj\Debug\net6.0\№2.pdb
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\obj\Debug\net6.0\№2.genruntimeconfig.cache
+C:\Users\Asus\OneDrive\Рабочий стол\Учёба\C#\ДЗ\C#7  семинарДЗ\№2\obj\Debug\net6.0\ref\№2.dll

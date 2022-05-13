@@ -4,43 +4,55 @@
 и возвращает значение этого элемента или же указание,
 что такого элемнента нет.
 */
-Console.Write("Введите m: ");
-int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите n: ");
-int n = Convert.ToInt32(Console.ReadLine());
-int[,] array = new int[m, n];
+Console.Write("Введите кол-во строк: ");
+int lines = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите кол-во столбцов: ");
+int columns = Convert.ToInt32(Console.ReadLine());
+int[,] array = new int[lines, columns];
 
-FullArray2(m, n);
-PrintArray2(m, n);
-string numbers = Convert.ToString(Console.ReadLine());
-string[] num = new string [numbers];
-for(int i = 0; i < numbers.Length;i++)
+FullArray2(lines, columns);
+PrintArray2(lines, columns);
+
+Console.Write("Введите позицию элемента которого хотите найти: ");
+string position1 = Console.ReadLine()!;
+
+for (int y = 0; y < position1.Length; y++)
 {
-    numbers[i] = numbers[i] + " ";
+    Console.Write(position1[y] + " ");
 }
-Console.Write(numbers);
 
-
-
-
-void FullArray2(int lines, int colones)
+for (int i = 0; i < lines; i++)
 {
-    int[,] array = new int[lines, colones];
+    for (int j = 0; j < columns; j++)
+    {
+        if (position1[0] == i && position1[1] == j)
+        {              
+            Console.Write($"{position1[0] + position1[1]}");
+        }
+        if (position1[0] > i && position1[1] > j)
+            Console.Write("такого числа нет ");
+    }
+}
 
+
+
+
+void FullArray2(int lines, int columns)
+{
     for (int i = 0; i < lines; i++)
     {
-        for (int j = 0; j < colones; j++)
+        for (int j = 0; j < columns; j++)
         {
             array[i, j] = new Random().Next(1, 100);
         }
     }
 }
 
-void PrintArray2(int lines, int colones)
+void PrintArray2(int lines, int columns)
 {
     for (int i = 0; i < lines; i++)
     {
-        for (int j = 0; j < colones; j++)
+        for (int j = 0; j < columns; j++)
         {
             Console.Write(array[i, j] + " ");
         }
