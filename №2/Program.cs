@@ -13,24 +13,28 @@ int[,] array = new int[lines, columns];
 FullArray2(lines, columns);
 PrintArray2(lines, columns);
 
-Console.Write("Введите позицию элемента которого хотите найти: ");
-string? position = Console.ReadLine();
+Console.Write("Введите индекс строки которую хотите найти: ");
+int positionLines = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите индекс столбца которого хотите найти: ");
+int positionColomns = Convert.ToInt32(Console.ReadLine());
 
-for (int y = 0; y < position.Length; y++)
-{
-    Console.WriteLine(position[y]);
-}
 
 for (int i = 0; i < lines; i++)
 {
     for (int j = 0; j < columns; j++)
     {
-        if (position[0] == i && position[1] == j)
-        {              
-            Console.Write(position[0] + position[1]);
+        if (positionLines == i && positionColomns == j &&
+            positionLines >= 0 && positionColomns >= 0)
+        {
+            Console.Write($"Число по вашим индексам = {array[positionLines, positionColomns]}");
             break;
         }
     }
+if (positionLines >= lines || positionColomns >= columns)
+{
+    Console.WriteLine("С такими индексами числа нету");
+    break;
+}
 }
 
 
