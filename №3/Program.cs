@@ -26,12 +26,17 @@ for (int i = 0; i < m; i++)
     Console.WriteLine();
 }
 
-for (int j = 0; j < n; j++)
+AverageColumns(m, n, array);
+
+void AverageColumns(int lines, int columns, double[,] array)
 {
-    double sum = 0;
-    for (int i = 0; i < m; i++)
+    for (int j = 0; j < columns; j++)
     {
-        sum += array[i,j];     
+        double sum = 0;
+        for (int i = 0; i < lines; i++)
+        {
+            sum += array[i, j];
+        }
+        Console.WriteLine($"Среденее арифметическое {j + 1} столбца = {Math.Round(sum / lines, 2)}");
     }
-    Console.WriteLine($"Среденее арифметическое {j+1} столбца = {Math.Round(sum/m,2)}");
 }
